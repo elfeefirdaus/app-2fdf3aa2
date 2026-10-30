@@ -713,7 +713,7 @@ if(typeof module!=='undefined'&&module.exports)module.exports=FeeCore;
 "use strict";
 var C=window.FeeCore,KEY=C.KEY,LSK=window.localStorage;
 function icon(c){return ICONS[c]||(/travel|trip/i.test(c||'')?'✈️':'💸')}
-var ICONS={'Food':'🍜','Transport':'🚇','Groceries':'🛒','Shopping':'🛍️','Bills':'🧾','Travel':'✈️','Entertainment':'🎬','Health':'💊','Other':'📦','Salary':'💼','Other income':'💰','Savings':'🐷','Debt':'💳','Bill':'🧾','Transfer':'🔁'};
+var ICONS={'Food':'🍜','Transport':'🚇','Groceries':'🛒','Shopping':'🛍️','Bills':'🧾','Travel':'✈️','Entertainment':'🎬','Health':'💊','Other':'📦','Salary':'💼','Other income':'💰','Savings':'🏦','Debt':'💳','Bill':'🧾','Transfer':'🔁'};
 
 /* A fresh install starts empty: no name, no amounts, no bills, no debts. Nothing personal ships in this
    file. Existing saved data is never refilled from here (fillDefaults only adds keys that are missing). */
